@@ -33,10 +33,22 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
-#userName {
+#fullName {
     color: var(--accentColor);
-    font-size: 1rem;
+    font-size: 2rem;
     font-weight: bold;
+    line-height: 1.2;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#userName {
+    color: #E6E6E6;
+    font-size: 1rem;
+    font-weight: lighter;
     line-height: 1.25;
     display: block;
     font-family: var(--font);
